@@ -1,0 +1,30 @@
+@font-face {
+   font-family: "Arial Black";
+   src: url("fonts/Arial Black.eot") format("embedded-opentype"), url("fonts/Arial Black.ttf") format("truetype"), url("fonts/Arial Black.woff") format("woff"), url("fonts/Arial Black.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Arial Narrow";
+   src: url("fonts/Arial Narrow.eot") format("embedded-opentype"), url("fonts/Arial Narrow.TTF") format("truetype"), url("fonts/Arial Narrow.woff") format("woff"), url("fonts/Arial Narrow.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Arial Narrow";
+   src: url("fonts/Arial Narrow Bold.eot") format("embedded-opentype"), url("fonts/Arial Narrow Bold.TTF") format("truetype"), url("fonts/Arial Narrow Bold.woff") format("woff"), url("fonts/Arial Narrow Bold.svg") format("svg");
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Arial Narrow";
+   src: url("fonts/Arial Narrow Bold Italic.eot") format("embedded-opentype"), url("fonts/Arial Narrow Bold Italic.TTF") format("truetype"), url("fonts/Arial Narrow Bold Italic.woff") format("woff"), url("fonts/Arial Narrow Bold Italic.svg") format("svg");
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: "Arial Narrow";
+   src: url("fonts/Arial Narrow Italic.eot") format("embedded-opentype"), url("fonts/Arial Narrow Italic.TTF") format("truetype"), url("fonts/Arial Narrow Italic.woff") format("woff"), url("fonts/Arial Narrow Italic.svg") format("svg");
+   font-weight: normal;
+   font-style: italic;
+}
