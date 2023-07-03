@@ -118,12 +118,6 @@
  "overflow": "visible",
  "definitions": [{
  "duration": 1000,
- "id": "effect_0C434E28_164F_9B33_41A9_F621F4695A08",
- "class": "FadeInEffect",
- "easing": "cubic_in_out"
-},
-{
- "duration": 1000,
  "id": "effect_0C435E28_164F_9B33_41A0_7884A1D93B06",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
@@ -200,6 +194,77 @@
  "easing": "cubic_in_out"
 },
 {
+ "fontFamily": "Arial",
+ "rollOverFontColor": "#FFFFFF",
+ "selectedFontColor": "#FFFFFF",
+ "children": [
+  {
+   "label": "01. Chaturmukh 360 07",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 0)"
+  },
+  {
+   "label": "01. Chaturmukh 360 06",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 1)"
+  },
+  {
+   "label": "01. Chaturmukh 360 05",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 2)"
+  },
+  {
+   "label": "01. Chaturmukh 360 04",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 3)"
+  },
+  {
+   "label": "01. Chaturmukh 360 01",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 4)"
+  },
+  {
+   "label": "01. Chaturmukh 360 11",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 5)"
+  },
+  {
+   "label": "01. Chaturmukh 360 03",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 6)"
+  },
+  {
+   "label": "01. Chaturmukh 360 02",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 7)"
+  },
+  {
+   "label": "01. Chaturmukh 360 08",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 8)"
+  },
+  {
+   "label": "01. Chaturmukh 360 09",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 9)"
+  },
+  {
+   "label": "01. Chaturmukh 360 10",
+   "class": "MenuItem",
+   "click": "this.mainPlayList.set('selectedIndex', 10)"
+  }
+ ],
+ "label": "Media",
+ "id": "Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
+ "class": "Menu",
+ "backgroundColor": "#404040",
+ "opacity": 0.4,
+ "rollOverBackgroundColor": "#000000",
+ "rollOverOpacity": 0.8,
+ "selectedBackgroundColor": "#202020",
+ "fontColor": "#FFFFFF"
+},
+{
  "adjacentPanoramas": [
   {
    "class": "AdjacentPanorama",
@@ -213,7 +278,7 @@
  "thumbnailUrl": "media/panorama_07A1946C_1642_904B_4191_2D39A8813BAC_t.jpg",
  "pitch": 0,
  "partial": false,
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "hfovMax": 141,
  "frames": [
   {
@@ -408,7 +473,7 @@
  "id": "panorama_07BEDBFC_1642_F04A_4181_63BE3709DF58",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07BEDBFC_1642_F04A_4181_63BE3709DF58_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 147,
@@ -762,7 +827,7 @@
 },
 {
  "duration": 1000,
- "id": "effect_0C406E28_164F_9B33_4156_33BA198BBA6C",
+ "id": "effect_0C41DE28_164F_9B33_41A1_C8318F2BD9EF",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
 },
@@ -794,7 +859,7 @@
  "id": "panorama_07A1089D_1642_90C5_41B4_6FF035D478AF",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07A1089D_1642_90C5_41B4_6FF035D478AF_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 150,
@@ -986,21 +1051,15 @@
 },
 {
  "duration": 1000,
- "id": "effect_0C41DE28_164F_9B33_41A1_C8318F2BD9EF",
+ "id": "effect_0C40BE28_164F_9B33_41A0_BE8BEE072535",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
 },
 {
  "duration": 1000,
- "id": "effect_0C439E28_164F_9B33_41A7_C4624444B0F8",
+ "id": "effect_0C406E28_164F_9B33_4156_33BA198BBA6C",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
-},
-{
- "viewerArea": "this.MainViewer",
- "id": "MainViewerMapPlayer",
- "class": "MapPlayer",
- "movementMode": "constrained"
 },
 {
  "duration": 1000,
@@ -1118,7 +1177,7 @@
 },
 {
  "duration": 1000,
- "id": "effect_0C43EE28_164F_9B33_4146_E5FF033F4A80",
+ "id": "effect_0C439E28_164F_9B33_41A7_C4624444B0F8",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
 },
@@ -1141,12 +1200,6 @@
  "easing": "cubic_in_out"
 },
 {
- "duration": 1000,
- "id": "effect_0C40BE28_164F_9B33_41A0_BE8BEE072535",
- "class": "FadeInEffect",
- "easing": "cubic_in_out"
-},
-{
  "adjacentPanoramas": [
   {
    "class": "AdjacentPanorama",
@@ -1162,7 +1215,7 @@
  "id": "panorama_07BE940A_1642_F7CF_41A8_042C74EAB978",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07BE940A_1642_F7CF_41A8_042C74EAB978_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 145,
@@ -1390,6 +1443,12 @@
 },
 {
  "duration": 1000,
+ "id": "effect_0C43EE28_164F_9B33_4146_E5FF033F4A80",
+ "class": "FadeInEffect",
+ "easing": "cubic_in_out"
+},
+{
+ "duration": 1000,
  "id": "effect_0C433E28_164F_9B33_41A6_CE6847A7E97D",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
@@ -1403,8 +1462,14 @@
    "player": "this.MainViewerMapPlayer"
   }
  ],
- "id": "playList_173E5DF1_1A7D_A4C6_41B2_63C8D4A4D04A",
+ "id": "playList_1785D819_1A74_AB46_41A0_F65E194162BE",
  "class": "PlayList"
+},
+{
+ "duration": 1000,
+ "id": "effect_0C423E28_164F_9B33_418F_05AB35A52431",
+ "class": "FadeInEffect",
+ "easing": "cubic_in_out"
 },
 {
  "adjacentPanoramas": [
@@ -1426,7 +1491,7 @@
  "id": "panorama_07BEF844_1642_FFBB_4181_CE791F77FA81",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07BEF844_1642_FFBB_4181_CE791F77FA81_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 148,
@@ -1766,7 +1831,7 @@
  "id": "panorama_07A15C2F_1642_B7C5_4195_6A9B3A2021E5",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07A15C2F_1642_B7C5_4195_6A9B3A2021E5_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 147,
@@ -1940,8 +2005,8 @@
 },
 {
  "duration": 1000,
- "id": "effect_0C423E28_164F_9B33_418F_05AB35A52431",
- "class": "FadeInEffect",
+ "id": "effect_098BD3B1_1645_8915_41A6_DFFD0CC28E3A",
+ "class": "FadeOutEffect",
  "easing": "cubic_in_out"
 },
 {
@@ -1998,7 +2063,7 @@
  "id": "panorama_07BFDC46_1642_9047_41AD_357A6C23EB20",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07BFDC46_1642_9047_41AD_357A6C23EB20_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 150,
@@ -2191,7 +2256,7 @@
  "id": "panorama_07BE2046_1642_9046_41A7_FB013B1C4641",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07BE2046_1642_9046_41A7_FB013B1C4641_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 148,
@@ -2441,6 +2506,18 @@
  "class": "PanoramaCamera"
 },
 {
+ "duration": 1000,
+ "id": "effect_0C430E28_164F_9B33_41AD_234813F46E61",
+ "class": "FadeInEffect",
+ "easing": "cubic_in_out"
+},
+{
+ "duration": 1000,
+ "id": "effect_0C40CE28_164F_9B33_4190_116A316AEC13",
+ "class": "FadeInEffect",
+ "easing": "cubic_in_out"
+},
+{
  "items": [
   {
    "begin": "this.MainViewerMapPlayer.set('movementMode', 'free_drag_and_rotation')",
@@ -2449,79 +2526,8 @@
    "player": "this.MainViewerMapPlayer"
   }
  ],
- "id": "playList_173F9DF1_1A7D_A4C6_419A_5DF54E32013B",
+ "id": "playList_1785F819_1A74_AB46_419E_E877136C4519",
  "class": "PlayList"
-},
-{
- "fontFamily": "Arial",
- "rollOverFontColor": "#FFFFFF",
- "selectedFontColor": "#FFFFFF",
- "children": [
-  {
-   "label": "01. Chaturmukh 360 07",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 0)"
-  },
-  {
-   "label": "01. Chaturmukh 360 06",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 1)"
-  },
-  {
-   "label": "01. Chaturmukh 360 05",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 2)"
-  },
-  {
-   "label": "01. Chaturmukh 360 04",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 3)"
-  },
-  {
-   "label": "01. Chaturmukh 360 01",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 4)"
-  },
-  {
-   "label": "01. Chaturmukh 360 11",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 5)"
-  },
-  {
-   "label": "01. Chaturmukh 360 03",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 6)"
-  },
-  {
-   "label": "01. Chaturmukh 360 02",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 7)"
-  },
-  {
-   "label": "01. Chaturmukh 360 08",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 8)"
-  },
-  {
-   "label": "01. Chaturmukh 360 09",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 9)"
-  },
-  {
-   "label": "01. Chaturmukh 360 10",
-   "class": "MenuItem",
-   "click": "this.mainPlayList.set('selectedIndex', 10)"
-  }
- ],
- "label": "Media",
- "id": "Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
- "class": "Menu",
- "backgroundColor": "#404040",
- "opacity": 0.4,
- "rollOverBackgroundColor": "#000000",
- "rollOverOpacity": 0.8,
- "selectedBackgroundColor": "#202020",
- "fontColor": "#FFFFFF"
 },
 {
  "duration": 1000,
@@ -2551,7 +2557,7 @@
  "id": "panorama_07A1685B_1642_B04E_41A0_00F5EC123CE1",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07A1685B_1642_B04E_41A0_00F5EC123CE1_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 147,
@@ -2731,19 +2737,13 @@
 },
 {
  "duration": 1000,
- "id": "effect_098BD3B1_1645_8915_41A6_DFFD0CC28E3A",
- "class": "FadeOutEffect",
- "easing": "cubic_in_out"
-},
-{
- "duration": 1000,
  "id": "effect_0C40EE28_164F_9B33_419C_8454C3386A0A",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
 },
 {
  "duration": 1000,
- "id": "effect_0C40CE28_164F_9B33_4190_116A316AEC13",
+ "id": "effect_0C434E28_164F_9B33_41A9_F621F4695A08",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
 },
@@ -2783,7 +2783,7 @@
  "id": "panorama_0442A3D8_1642_B04A_418B_74978E4EB753",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_0442A3D8_1642_B04A_418B_74978E4EB753_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 147,
@@ -2977,7 +2977,7 @@
  "id": "panorama_07BFD05C_1642_F04A_4193_8A070B466EFE",
  "class": "Panorama",
  "thumbnailUrl": "media/panorama_07BFD05C_1642_F04A_4193_8A070B466EFE_t.jpg",
- "cardboardMenu": "this.Menu_1727ADF1_1A7D_A4C6_41B9_EC042718B55C",
+ "cardboardMenu": "this.Menu_147D2838_1A74_AB46_41B5_CE9B35E7345A",
  "pitch": 0,
  "partial": false,
  "hfovMax": 144,
@@ -3164,12 +3164,6 @@
 },
 {
  "duration": 1000,
- "id": "effect_0C430E28_164F_9B33_41AD_234813F46E61",
- "class": "FadeInEffect",
- "easing": "cubic_in_out"
-},
-{
- "duration": 1000,
  "id": "effect_0C404E28_164F_9B33_41A8_459190691A98",
  "class": "FadeInEffect",
  "easing": "cubic_in_out"
@@ -3264,10 +3258,16 @@
  "easing": "cubic_in_out"
 },
 {
+ "viewerArea": "this.MainViewer",
+ "id": "MainViewerMapPlayer",
+ "class": "MapPlayer",
+ "movementMode": "constrained"
+},
+{
  "progressBarBorderColor": "#000000",
  "progressBackgroundColorDirection": "vertical",
  "id": "MainViewer",
- "left": 110,
+ "left": 0,
  "playbackBarBottom": 5,
  "toolTipShadowSpread": 0,
  "playbackBarHeadOpacity": 1,
@@ -3276,7 +3276,7 @@
   0
  ],
  "toolTipBorderColor": "#767676",
- "width": "80%",
+ "width": "100%",
  "playbackBarProgressBackgroundColorDirection": "vertical",
  "progressBarBackgroundColor": [
   "#3399FF"
@@ -3392,17 +3392,17 @@
  "maxHeight": 311,
  "maxWidth": 307,
  "id": "Image_026B5FD4_16C3_B05A_41A7_FC788C4C6DD2",
- "right": "14.21%",
+ "right": "3.44%",
  "horizontalAlign": "center",
  "borderSize": 0,
  "url": "skin/Image_026B5FD4_16C3_B05A_41A7_FC788C4C6DD2.png",
  "paddingLeft": 0,
  "minHeight": 1,
- "top": "2.95%",
- "width": "6.829%",
+ "top": "2.72%",
+ "width": "6.139%",
  "verticalAlign": "middle",
  "minWidth": 1,
- "height": "8.126%",
+ "height": "7.296%",
  "class": "Image",
  "paddingTop": 0,
  "paddingRight": 0,
@@ -3420,20 +3420,20 @@
  "propagateClick": false,
  "textDecoration": "none",
  "id": "Label_029D4583_16C6_89F5_41B2_28C8A4C5C9A7",
- "right": "32.78%",
+ "right": "6.84%",
  "fontColor": "#000000",
  "horizontalAlign": "center",
  "borderSize": 0,
  "text": "चतुर्मुख देवळाची मानचित्रे",
  "minHeight": 1,
  "paddingLeft": 0,
- "top": "0.06%",
- "width": "28.807%",
+ "top": "0.92%",
+ "width": "72.779%",
  "verticalAlign": "middle",
  "minWidth": 1,
  "fontSize": "5vmin",
  "class": "Label",
- "height": "10.558%",
+ "height": "10.587%",
  "fontStyle": "normal",
  "paddingTop": 0,
  "paddingRight": 0,
@@ -3451,15 +3451,15 @@
  "propagateClick": false,
  "textDecoration": "none",
  "id": "Label_03408EA0_16CE_9B33_41B4_619B56FAD290",
- "left": "17.49%",
+ "left": "0.69%",
  "fontColor": "#000000",
  "horizontalAlign": "center",
  "borderSize": 0,
  "text": "360 Virtual Tour",
  "minHeight": 1,
  "paddingLeft": 0,
- "top": "3.83%",
- "width": "14.615%",
+ "top": "2.4%",
+ "width": "25.573%",
  "verticalAlign": "middle",
  "minWidth": 1,
  "fontSize": "3vmin",
